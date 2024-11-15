@@ -1,0 +1,28 @@
+# Created  November 15, 2024
+# Author: Ritik Kumar 
+# Email: ritik[at]gmail.com
+
+# Blocking specific bots from accessing the site
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ChatGPT
+Disallow: /
+
+User-agent: OpenAI
+Disallow: /
+
+# Blocking specific paths for all other user agents
+User-agent: *
+Disallow: /admin/
+Disallow: /welcome/
+
+# Specify the sitemap location
+Sitemap: https://quickcell.in/sitemap.xml
