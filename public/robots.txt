@@ -1,6 +1,6 @@
 # Created  November 15, 2024
-# Author: Ritik Kumar 
-# Email: ritik[at]gmail.com
+# Author: Pinki Rani
+# Email: pinki[at]gmail.com
 
 # Blocking specific bots from accessing the site
 
@@ -24,5 +24,4 @@ User-agent: *
 Disallow: /admin/
 Disallow: /welcome/
 
-# Specify the sitemap location
-Sitemap: https://quickcell.in/sitemap.xml
+ 
